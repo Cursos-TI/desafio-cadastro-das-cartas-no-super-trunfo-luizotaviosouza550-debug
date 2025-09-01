@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int população,pontosturísticos;
+    int população,pontos;
     float área, PIB;
     char Cidade[50];
-    char códigodacarta [45];
+    char código [45];
 
 
     printf("Digite o número de habitantes: \n");
@@ -20,14 +20,14 @@ int main(){
     scanf("%s", Cidade);
 
     printf("Digite seu Estado: \n");
-    scanf("%s",&códigodacarta);
+    scanf("%s",&código);
 
     printf("pontos turísticos: \n");
-    scanf("%d",&pontosturísticos);
+    scanf("%d",&pontos);
 
     printf("\n--- Trunfo ---\n");
-    printf("Código da carta: %s - População: %d\n",códigodacarta,população);
-    printf("pontos turísticos: %d - área: %f\n",pontosturísticos,área);
+    printf("Código da carta: %s - População: %d\n",código,população);
+    printf("pontos turísticos: %d - área: %f\n",pontos,área);
 
     return 0;
 
