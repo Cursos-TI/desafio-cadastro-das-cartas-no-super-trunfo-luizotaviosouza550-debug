@@ -67,7 +67,7 @@ int main() {
 
     // ===== Saída formatada =====
     printf("\nCarta 1:\n");
-    printf("Estado: %c\n", estado1);
+    printf("Estado: %s\n", estado1);
     printf("Codigo: %s\n", codigo1);
     printf("Nome da Cidade: %s \n", cidade1);
     printf("Populacao: %d \n", populacao1);
@@ -76,7 +76,7 @@ int main() {
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos1);
 
     printf("\nCarta 2:\n");
-    printf("Estado: %c\n", estado2);
+    printf("Estado: %s\n", estado2);
     printf("Codigo: %s \n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("Populacao: %d\n", populacao2);
